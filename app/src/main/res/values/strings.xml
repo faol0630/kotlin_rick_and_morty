@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RickAndMorty</string>
+    <string name="characters_app">Characters app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fav">Fav</string>
+    <string name="going_down">-</string>
+    <string name="page_1">1</string>
+    <string name="going_up">+</string>
+    <string name="error">error</string>
+    <string name="id">Id:</string>
+    <string name="status">Status:</string>
+    <string name="species">Species:</string>
+    <string name="gender">Gender:</string>
+    <string name="origin">Origin:</string>
+    <string name="location">Location:</string>
+    <string name="saving_button">saving button</string>
+    <string name="character_s_image">character\'s image</string>
+    <string name="deleting_button">deleting button</string>
+</resources>

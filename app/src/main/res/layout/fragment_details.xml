@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#757575"
+    tools:context=".ui.FragmentDetails">
+
+    <ImageView
+        android:id="@+id/detailsImageView"
+        android:background="#607D8B"
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="@string/character_s_image" />
+
+    <TextView
+        android:id="@+id/detailsName"
+        android:textColor="#F57C00"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:hint="@string/characters_app"
+        android:background="#607D8B"
+        android:textColorHint="#F57C00"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FFE0B2"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:text="@string/id"
+            android:background="#757575"
+            android:textColor="#FFE0B2"
+            android:textStyle="normal"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailsId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FF9800"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:textStyle="italic"
+            android:background="#757575"
+            android:textColor="#FF9800"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FFE0B2"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:background="#757575"
+            android:text="@string/status"
+            android:textColor="#FFE0B2"
+            android:textStyle="normal"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailsstatus"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FF9800"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:textStyle="italic"
+            android:background="#757575"
+            android:textColor="#FF9800"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FFE0B2"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:background="#757575"
+            android:text="@string/species"
+            android:textColor="#FFE0B2"
+            android:textStyle="normal"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailsSpecies"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FF9800"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:textStyle="italic"
+            android:background="#757575"
+            android:textColor="#FF9800"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FFE0B2"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:background="#757575"
+            android:text="@string/gender"
+            android:textColor="#FFE0B2"
+            android:textStyle="normal"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailsGender"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FF9800"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:textStyle="italic"
+            android:background="#757575"
+            android:textColor="#FF9800"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FFE0B2"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:background="#757575"
+            android:text="@string/origin"
+            android:textColor="#FFE0B2"
+            android:textStyle="normal"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailsOrigin"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:textColorHint="#FF9800"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:textStyle="italic"
+            android:background="#757575"
+            android:textColor="#FF9800"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColorHint="#FFE0B2"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:background="#757575"
+            android:text="@string/location"
+            android:textColor="#FFE0B2"
+            android:textStyle="normal"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailsLocation"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:textColorHint="#FF9800"
+            android:hint="@string/characters_app"
+            android:padding="8dp"
+            android:textStyle="italic"
+            android:background="#757575"
+            android:textColor="#FF9800"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnSaveInFavorites"
+        android:src="@drawable/ic_baseline_save_24"
+        app:backgroundTint="#FFE0B2"
+        android:elevation="5dp"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/saving_button" />
+
+</LinearLayout>

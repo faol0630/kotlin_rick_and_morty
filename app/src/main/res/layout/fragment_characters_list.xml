@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBDBD"
+    android:orientation="vertical"
+    tools:context=".ui.FragmentCharactersList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnGoToFavorites"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="@string/fav"
+            android:textColor="#607D8B"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:cornerRadius="20dp"
+            app:strokeColor="#607D8B" />
+
+        <Button
+            android:id="@+id/btnGoToPreviousPage"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="@string/going_down"
+            android:textColor="#F57C00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="#212121" />
+
+        <Button
+            android:id="@+id/btnGoToPageOne"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="@string/page_1"
+            android:textColor="#F57C00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="#212121" />
+
+        <Button
+            android:id="@+id/btnGoToNextPage"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="@string/going_up"
+            android:textColor="#F57C00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="#212121" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/errorImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/error"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCharacters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBarCharacters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
